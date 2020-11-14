@@ -1,3 +1,3 @@
 data "aws_ami" "amis" {
-  owners = ["444116123530"]
+  owners = ["amazon"]
 }
