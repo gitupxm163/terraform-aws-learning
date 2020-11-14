@@ -8,5 +8,5 @@ output "public_dns" {
 }
 
 output "data_image" {
-  value = "${data.aws_ami.amis.images[*].id}"
+  value = "${data.aws_ami.amis.image_id[*]}"
 }
